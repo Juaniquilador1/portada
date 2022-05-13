@@ -8,6 +8,6 @@ public class DemoController {
 	@GetMapping("/demo/portada")
 	public String Portada()
 	{
-		return "Portada";
+		return "demo/portada";
 	}
 }
